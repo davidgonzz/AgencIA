@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agencia IA Comerciales - Planes y Precios</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- AOS Animations -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm navbar-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Agenc<span style="color:#ffd700;">IA</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="casos.html">Casos de Éxito</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="planes.html">Planes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ENCABEZADO -->
+    <section class="d-flex align-items-center text-center" style="height:50vh;" data-aos="fade-up">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Planes y Precios</h1>
+            <p class="lead mt-3">Elige el plan que mejor se adapta a tu negocio</p>
+        </div>
+    </section>
+
+    <!-- PLANES -->
+    <section id="planes" class="py-5 text-center">
+        <div class="container">
+            <div class="row g-5 justify-content-center">
+                <!-- Plan Start -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="p-5 border rounded shadow-sm h-100 bg-dark text-light">
+                        <h4 class="fw-bold mb-3" style="color:#ffd700;">Start</h4>
+                        <p class="display-6 fw-bold mb-3">79€<small>/mes</small></p>
+                        <p><i class="bi-check-circle-fill text-warning"></i> Automatización básica de reservas</p>
+                        <p><i class="bi-check-circle-fill text-warning"></i> Canal WhatsApp</p>
+                        <p><i class="bi-check-circle-fill text-warning"></i> Soporte por email</p>
+                        <a href="contacto.html" class="btn btn-warning w-100 mt-4">Contratar</a>
+                    </div>
+                </div>
+                <!-- Plan Growth (Recomendado) -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="p-5 border border-warning rounded shadow-lg h-100 bg-dark text-light position-relative">
+                        <span
+                            class="position-absolute top-0 start-50 translate-middle badge bg-warning text-dark px-3 py-2"
+                            style="font-size:0.9rem;">Más Popular</span>
+                        <h4 class="fw-bold mb-3" style="color:#ffd700;">Growth</h4>
+                        <p class="display-6 fw-bold mb-3">149€<small>/mes</small></p>
+                        <p><i class="bi-check-circle-fill text-warning"></i> Multi-canal (WhatsApp + Web Chat)</p>
+                        <p><i class="bi-check-circle-fill text-warning"></i> Envío automático de recordatorios</p>
+                        <p><i class="bi-check-circle-fill text-warning"></i> Soporte prioritario 24/7</p>
+                        <p><i class="bi-check-circle-fill text-warning"></i> Estadísticas y reportes mensuales</p>
+                        <a href="contacto.html" class="btn btn-warning w-100 mt-4">Contratar</a>
+                    </div>
+                </div>
+                <!-- Plan Pro -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="p-5 border rounded shadow-sm h-100 bg-dark text-light">
+                        <h4 class="fw-bold mb-3" style="color:#ffd700;">Enterprise</h4>
+                        <p class="display-6 fw-bold mb-3">A medida</p>
+                        <p><i class="bi-check-circle-fill text-warning"></i> Personalización completa del agente</p>
+                        <p><i class="bi-check-circle-fill text-warning"></i> Integración con CRM y ERP</p>
+                        <p><i class="bi-check-circle-fill text-warning"></i> Soporte dedicado y formación</p>
+                        <p><i class="bi-check-circle-fill text-warning"></i> Consultoría mensual incluida</p>
+                        <a href="contacto.html" class="btn btn-warning w-100 mt-4">Solicitar Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-light py-4 mt-5">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <!-- Logo y derechos -->
+            <div class="mb-3 mb-md-0 text-center text-md-start">
+                <h5 class="navbar-brand fw-bold" href="index.html">Agenc<span style="color:#ffd700;">IA</span></h5>
+                <small class="text-secondary">Todos los derechos reservados 2025</small>
+            </div>
+
+            <!-- Enlaces legales -->
+            <div class="d-flex flex-column flex-md-row gap-3 text-center mb-3 mb-md-0">
+                <a href="politica-privacidad.html" class="text-light text-decoration-none">Política de Privacidad</a>
+                <a href="terminos.html" class="text-light text-decoration-none">Términos del Servicio</a>
+                <a href="cookies.html" class="text-light text-decoration-none">Política de Cookies</a>
+                <a href="cookies-preferencias.html" class="text-light text-decoration-none">Preferencias de Cookies</a>
+            </div>
+
+            <!-- Redes sociales -->
+            <div class="d-flex gap-3">
+                <a href="#" class="text-light fs-5"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-light fs-5"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="text-light fs-5"><i class="bi bi-youtube"></i></a>
+                <a href="#" class="text-light fs-5"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="text-light fs-5"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true });
+    </script>
+</body>
+
+</html>

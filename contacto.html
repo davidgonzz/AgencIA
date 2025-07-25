@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agenda tu cita | Agencia IA Comerciales</title>
+    <meta name="description"
+        content="Agenda una reunión personalizada con Agencia IA para descubrir cómo automatizar tu negocio y mejorar tus resultados.">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- AOS Animations -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm navbar-dark scrolled">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Agenc<span style="color:#ffd700;">IA</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="casos.html">Casos de Éxito</a></li>
+                    <li class="nav-item"><a class="nav-link" href="planes.html">Planes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ENCABEZADO -->
+    <section class="d-flex align-items-center text-center bg-dark text-light" style="height:50vh;" data-aos="fade-up">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-3">
+                <i class="bi-calendar-check text-warning me-2"></i>Agenda tu cita hoy mismo
+            </h1>
+            <p class="lead">Automatiza tu negocio con la potencia de la Inteligencia Artificial<br>
+                <span class="fw-semibold text-warning">¡Haz crecer tu empresa desde ahora!</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- CALENDLY Y MAPA -->
+    <section id="contacto" class="py-5 bg-dark text-light">
+        <div class="container">
+            <div class="row g-5 align-items-start">
+                <!-- Calendly -->
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="card bg-dark border border-secondary shadow-sm p-4 rounded-4 h-100">
+                        <h2 class="fw-bold mb-3" style="color:#ffd700;">
+                            <i class="bi-calendar-event me-2"></i>Reserva tu sesión personalizada
+                        </h2>
+                        <p class="mb-4">Selecciona el día y la hora que mejor te venga y uno de nuestros
+                            <span class="fw-semibold text-warning">expertos en automatización</span>
+                            se pondrá en contacto contigo.
+                        </p>
+                        <!-- Calendly embebido responsive -->
+                        <div class="calendly-inline-widget"
+                            data-url="https://calendly.com/assistant-intelia/asesoria-personaliza"
+                            style="min-width:100%;height:700px;">
+                        </div>
+                        <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                    </div>
+                </div>
+
+                <!-- Mapa -->
+                <div class="col-lg-6 text-center" data-aos="fade-left">
+                    <div class="rounded-4 overflow-hidden shadow-sm border border-secondary">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49000.59613324579!2d-4.0406293323883675!3d39.862202012530204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6a0bad0bb5fdf1%3A0xc67f5be86a75adfe!2sToledo!5e0!3m2!1ses!2ses!4v1753435640615!5m2!1ses!2ses"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-light py-4 mt-5">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <!-- Logo y derechos -->
+            <div class="mb-3 mb-md-0 text-center text-md-start">
+                <h5 class="navbar-brand fw-bold" href="index.html">Agenc<span style="color:#ffd700;">IA</span></h5>
+                <small class="text-secondary">Todos los derechos reservados 2025</small>
+            </div>
+
+            <!-- Enlaces legales -->
+            <div class="d-flex flex-column flex-md-row gap-3 text-center mb-3 mb-md-0">
+                <a href="politica-privacidad.html" class="text-light text-decoration-none">Política de Privacidad</a>
+                <a href="terminos.html" class="text-light text-decoration-none">Términos del Servicio</a>
+                <a href="cookies.html" class="text-light text-decoration-none">Política de Cookies</a>
+                <a href="cookies-preferencias.html" class="text-light text-decoration-none">Preferencias de Cookies</a>
+            </div>
+
+            <!-- Redes sociales -->
+            <div class="d-flex gap-3">
+                <a href="#" class="text-light fs-5"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-light fs-5"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="text-light fs-5"><i class="bi bi-youtube"></i></a>
+                <a href="#" class="text-light fs-5"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="text-light fs-5"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true });
+    </script>
+</body>
+
+</html>
